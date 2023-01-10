@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textedit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDD2D2"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/logobackground"
+        android:layout_width="422dp"
+        android:layout_height="730dp"
+        android:background="#CD9090"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="255dp"
+            android:layout_height="241dp"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="69dp"
+            android:transitionName="logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/splashtext"
+            android:layout_width="378dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="103dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Handmade Acccessories"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:transitionName="logo_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.607" />
+
+        <TextView
+            android:id="@+id/Slogan"
+            android:layout_width="307dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="44dp"
+            android:text="Create your own design"
+            android:textAlignment="center"
+            android:textColor="#675D5D"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.787" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
